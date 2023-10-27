@@ -31,7 +31,7 @@ function validate(){
 
 <body style="background-color: #dee2e6;">
 
-<h1><b><?php echo $this->session->userdata('email'); ?>  --->>>  "TODO LIST CREATION"</b><h1>
+<h1><b><?php echo $this->session->userdata('email'); ?>  -->>>  "TODO LIST CREATION"</b><h1>
 
 <br><br>
 <nav class="navbar">
