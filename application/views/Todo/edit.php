@@ -17,7 +17,7 @@ function validate(){
 
     if(no.value.trim() == "" || name.value.trim() == "" || skill.value.trim() == "" || age.value.trim() == "")
     {
-        alert("enter the values");
+        alert("enter all the values");
 
         return false;
     }

@@ -1,6 +1,7 @@
 <?php 
 defined('BASEPATH') OR exit('No direct script access allowed');
 
+
 class CricketController extends CI_Controller
 {
 
@@ -60,7 +61,7 @@ class CricketController extends CI_Controller
     public function updateplayer()
     {
         
-    $data = [
+     $data = [
 
         'no' => $this->input->post('no'),
 
