@@ -51,7 +51,7 @@ function validate(){
 
   <h2> <label class="form-label">Skill:</label></h2>
   <select class="form-select" name="skill" value="<?php echo $player->skill; ?>" aria-label="Default select example">
-  <option selected>Open this select menu</option>
+  <option selected>Select</option>
   <option value="batsman">batsman</option>
   <option value="bowler">bowler</option>
   <option value="keeper">keeper</option>
