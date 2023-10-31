@@ -32,10 +32,10 @@ function validate(){
 <nav class="navbar" style="background-color: #e3f2fd;">
 <body>
 
-<h1>Edit Player</h1>
+<h1>Edit Players</h1>
 <br>
 
-<form onsubmit = "return validate()" action="<?php echo base_url('player/update') ?>" method="post" novalidate>
+<form onsubmit = "return validate()" action="<?php echo base_url('player/update') ?>" method="post">
        
 <form>
 
